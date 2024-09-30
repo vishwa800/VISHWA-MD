@@ -23,10 +23,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
+module.exports = { session: process.env.SESSION_ID || 'xb9zgCYI#RW0_77gsrTtvEI_FUaNy97r8Bjd2RAnZpjhdXZSiMr4',
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "Vishwa Kodithuwakku",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "94720797915",              
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "94765684096",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || 'MASTER-MD',
